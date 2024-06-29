@@ -1,0 +1,39 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`functional:stringifyPosition > node > should serialize node (invalid position #1) 1`] = `"1:1-1:1"`;
+
+exports[`functional:stringifyPosition > node > should serialize node (invalid position #2) 1`] = `"1:1-1:1"`;
+
+exports[`functional:stringifyPosition > node > should serialize node (invalid position #3) 1`] = `"1:1-1:1"`;
+
+exports[`functional:stringifyPosition > node > should serialize node (no position) 1`] = `"1:1-1:1"`;
+
+exports[`functional:stringifyPosition > node > should serialize node (valid) 1`] = `"63:8-63:55"`;
+
+exports[`functional:stringifyPosition > node > should serialize node (valid, offsets) 1`] = `"114:76-115:1, 2606-2607"`;
+
+exports[`functional:stringifyPosition > point > should serialize point (column only) 1`] = `"1:3"`;
+
+exports[`functional:stringifyPosition > point > should serialize point (line only) 1`] = `"13:1"`;
+
+exports[`functional:stringifyPosition > point > should serialize point (no indices) 1`] = `"1:1"`;
+
+exports[`functional:stringifyPosition > point > should serialize point (valid) 1`] = `"2:3"`;
+
+exports[`functional:stringifyPosition > position > should serialize position (invalid points #1) 1`] = `"1:1-1:1"`;
+
+exports[`functional:stringifyPosition > position > should serialize position (invalid points #2) 1`] = `"1:1-1:1"`;
+
+exports[`functional:stringifyPosition > position > should serialize position (invalid points #3) 1`] = `"1:1-1:1"`;
+
+exports[`functional:stringifyPosition > position > should serialize position (no points) 1`] = `"1:1-1:1"`;
+
+exports[`functional:stringifyPosition > position > should serialize position (valid) 1`] = `"111:6-128:42"`;
+
+exports[`functional:stringifyPosition > position > should serialize position (valid, offsets) 1`] = `"1:1-4:4, 0-73"`;
+
+exports[`functional:stringifyPosition > range > should serialize range (no points) 1`] = `"1:1-1:1"`;
+
+exports[`functional:stringifyPosition > range > should serialize range (valid) 1`] = `"42:6-38:3"`;
+
+exports[`functional:stringifyPosition > range > should serialize range (valid, offsets) 1`] = `"13:4-13:51, 347-521"`;

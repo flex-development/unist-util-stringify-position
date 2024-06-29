@@ -21,5 +21,11 @@ export default [
       '**/dist/',
       '__fixtures__/underscore-1.5.2.js'
     ]
+  },
+  {
+    files: ['src/stringify-position.ts'],
+    rules: {
+      '@typescript-eslint/unified-signatures': 0
+    }
   }
 ]

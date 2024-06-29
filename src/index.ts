@@ -3,4 +3,5 @@
  * @module unist-util-stringify-position
  */
 
-export {}
+export { default as stringifyPosition } from './stringify-position'
+export type * from './types'

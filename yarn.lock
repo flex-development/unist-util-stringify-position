@@ -1414,6 +1414,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@faker-js/faker@npm:9.0.0-alpha.1":
+  version: 9.0.0-alpha.1
+  resolution: "@faker-js/faker@npm:9.0.0-alpha.1"
+  checksum: 10/deb7e11c3f1f21de9df9be8efa407d24343a8527edb16f95498b62225258fbed5727e9c43d0582614ac0922725f1846315951e50f3372b11d88b0482774ba36a
+  languageName: node
+  linkType: hard
+
 "@flex-development/aggregate-error-ponyfill@npm:3.1.1":
   version: 3.1.1
   resolution: "@flex-development/aggregate-error-ponyfill@npm:3.1.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40flex-development%2Faggregate-error-ponyfill%2F3.1.1%2F06789d036a0573f507331cc4d1068616a4e58c9e"
@@ -1824,6 +1831,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@flex-development/unist-util-builder@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@flex-development/unist-util-builder@npm:1.0.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40flex-development%2Funist-util-builder%2F1.0.0%2F268e7f80fefe192a1f809f59e226c06a7a2f942c"
+  dependencies:
+    "@flex-development/unist-util-types": "npm:1.6.0"
+    "@types/unist": "npm:3.0.2"
+  checksum: 10/3885f02a6227dbd27a97d117555d81bfdfcba85c146ea971137ea21d9d7fc6b69c572910ab9d314a34d7a01b3ba45832db0b0aaf605f1a2f4c2c3f8693e8f784
+  languageName: node
+  linkType: hard
+
 "@flex-development/unist-util-stringify-position@workspace:.":
   version: 0.0.0-use.local
   resolution: "@flex-development/unist-util-stringify-position@workspace:."
@@ -1832,6 +1849,7 @@ __metadata:
     "@commitlint/cli": "npm:19.3.0"
     "@commitlint/types": "npm:19.0.3"
     "@eslint/js": "npm:9.6.0"
+    "@faker-js/faker": "npm:9.0.0-alpha.1"
     "@flex-development/commitlint-config": "npm:1.0.1"
     "@flex-development/decorator-regex": "npm:2.0.0"
     "@flex-development/esm-types": "npm:2.0.0"
@@ -1840,6 +1858,7 @@ __metadata:
     "@flex-development/mlly": "npm:1.0.0-alpha.18"
     "@flex-development/pathe": "npm:2.0.0"
     "@flex-development/tutils": "npm:6.0.0-alpha.25"
+    "@flex-development/unist-util-builder": "npm:1.0.0"
     "@flex-development/unist-util-types": "npm:1.6.1"
     "@stylistic/eslint-plugin": "npm:2.3.0"
     "@types/chai": "npm:4.3.16"
@@ -1897,6 +1916,15 @@ __metadata:
     yaml-eslint-parser: "npm:1.2.3"
   languageName: unknown
   linkType: soft
+
+"@flex-development/unist-util-types@npm:1.6.0":
+  version: 1.6.0
+  resolution: "@flex-development/unist-util-types@npm:1.6.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40flex-development%2Funist-util-types%2F1.6.0%2F4e40cc3dadce847a603efae356dca9da4af17bdb"
+  peerDependencies:
+    "@types/unist": ">=3.0.2"
+  checksum: 10/cdbf97ecb7a24f36e427b531042fee85704cbfa613aaf0146a8633ad48244072d6c66de5aa23d472dd4216c74174cfbb25f46a5b27f937a6913cee03c7da0f31
+  languageName: node
+  linkType: hard
 
 "@flex-development/unist-util-types@npm:1.6.1":
   version: 1.6.1
