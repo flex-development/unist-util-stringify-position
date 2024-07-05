@@ -1,7 +1,7 @@
 {
   "name": "@flex-development/unist-util-stringify-position",
   "description": "unist utility to serialize a node, position, point, or range as a human readable location",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "point",
     "position",
