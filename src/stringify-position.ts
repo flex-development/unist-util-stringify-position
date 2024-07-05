@@ -99,13 +99,6 @@ function stringifyPosition(
   info?: unknown,
   options?: Options | null
 ): string {
-  /**
-   * Serialized positional info.
-   *
-   * @var {string} serialized
-   */
-  let serialized: string = ''
-
   if (typeof info === 'object' && info) {
     /**
      * Info passed around.
@@ -115,23 +108,23 @@ function stringifyPosition(
     const state: State = { offsets: options?.offsets ?? false }
 
     // range
-    if (Array.isArray(info)) serialized = range(<Range>info, state)
+    if (Array.isArray(info)) return range(<Range>info, state)
 
     // node
     if ('position' in info || 'type' in info) {
-      serialized = position((<NodeLike>info).position, state)
+      return position((<NodeLike>info).position, state)
     }
 
     // position
     if ('end' in info || 'start' in info) {
-      serialized = position(<PositionLike>info, state)
+      return position(<PositionLike>info, state)
     }
 
     // point
-    if ('column' in info || 'line' in info) serialized = point(<PointLike>info)
+    if ('column' in info || 'line' in info) return point(<PointLike>info)
   }
 
-  return serialized
+  return ''
 }
 
 export default stringifyPosition
